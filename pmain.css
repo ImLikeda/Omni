@@ -1,0 +1,53 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none; 
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-size: 62.5%;
+}
+
+.main {
+    display: block;
+    background-color: powderblue;
+}
+
+.main > .OmniComa {
+    display: block;
+    padding: 4rem;
+    background-color: yellow;
+    text-align: center;
+    align-items: center;
+    line-height: 5rem;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.main > .timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    height: 4rem;
+    margin: 2rem;
+}
+
+.main > ul {
+    display: grid;
+    padding: 4rem;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 3rem;
+    background-color: plum;
+}
+
+.main > ul > li {
+    display: flex;
+    margin-inline: 5rem;
+    height: 5rem;
+    border: 1mm solid black;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+}

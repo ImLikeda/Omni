@@ -1,0 +1,45 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none; 
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-size: 62.5%;
+}
+
+.ComaH {
+    display: block;
+    text-align: center;
+    align-items: center;
+    background-color: yellow;
+    padding: 4rem;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.ComaEx {
+    display: flex;
+    padding: 3rem;
+    background-color: aliceblue;
+}
+
+.ComaTop {
+    display: block;
+    padding: 1rem;
+    background-color: purple;
+}
+
+.ComaTop > div {
+    line-height: 2rem;
+}
+
+.toCoPart {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 5rem;
+    height: 5rem;
+    background-color: wheat;
+}
