@@ -43,10 +43,11 @@
 }
 
 .map {
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 30%;
-    width: 30%;
+    height: 23rem;
+    width: 23rem;
+    margin: auto;
     border: 0.1mm solid black;
 }

@@ -23,11 +23,12 @@
     display: flex;
     padding: 3rem;
     background-color: aliceblue;
+    font-size: 1.6rem;
 }
 
 .ComaTop {
     display: block;
-    padding: 1rem;
+    padding: 3rem;
     background-color: purple;
 }
 
@@ -41,5 +42,11 @@
     margin: auto;
     width: 5rem;
     height: 5rem;
-    background-color: wheat;
+}
+
+.toCoPart > .toButton {
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    background-color: skyblue;
 }

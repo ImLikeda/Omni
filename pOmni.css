@@ -27,7 +27,7 @@
 
 .OmniTop {
     display: block;
-    padding: 1rem;
+    padding: 3rem;
     background-color: purple;
 }
 
@@ -42,4 +42,11 @@
     width: 5rem;
     height: 5rem;
     background-color: wheat;
+}
+
+.toOmPart > .toButton {
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    background-color: skyblue;
 }
