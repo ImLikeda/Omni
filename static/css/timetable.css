@@ -1,11 +1,11 @@
 @font-face {
     font-family: title;
-    src: url("font/establish\ Retrosans.ttf") format('truetype');
+    src: url("../font/establish\ Retrosans.ttf") format('truetype');
 }
 
 @font-face {
     font-family: mayo;
-    src: url("font/Dovemayo_gothic.ttf") format("truetype");
+    src: url("../font/Dovemayo_gothic.ttf") format("truetype");
 }
 
 *{
@@ -46,7 +46,7 @@
 .main > .TimeLine > .TL {
     display: block;
     margin: auto;
-    height: 8rem;
+    height: 7rem;
     width: 80%;
     justify-content: center;
     padding-top: 1.8rem;

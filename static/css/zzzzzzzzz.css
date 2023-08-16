@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Gmarket;
+    src: url("../font/GmarketSansTTFMedium.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: GmarketL;
+    src: url("../font/GmarketSansTTFBold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: ret;
+    src: url("../font/establish\ Retrosans.ttf") format('truetype');
+}
+
+*{
+    font-family: 'Gmarket';
+    list-style: none;
+    text-decoration: none; 
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 62.5%;
+}
+
+.wrap {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrap > .a {
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+.a > .one {
+    font-size: 16em;
+    text-align: center;
+    color: #F1C164;
+    text-shadow: 5px 5px #16345A, 8px 8px #284D8E, 11px 11px #4D8CBF, 14px 14px #5FA9D9;    margin: 0;
+    padding: 2rem;
+    /* text-decoration: underline; */
+}
+
+.a > .two {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.a > .two > .x {
+    display: flex;
+    flex-basis: 100%;
+    font-size: 3rem;
+    text-align: center;
+    align-items: center;
+    margin: 0.8rem 0rem;
+    /* border: 0.5rem solid white; */
+}
+
+.x::before{
+	content:"";
+	flex-grow:1;
+	margin:0px 1rem;
+	background:rgba(255,255,255);
+	height:0.1rem;
+	font-size:0px;
+	line-height: 1rem;
+}
+
+.x::after {
+	content:"";
+	flex-grow:1;
+	margin:0px 1rem;
+	background:rgba(255,255,255);
+	height:0.1rem;
+	font-size:0px;
+	line-height: 1rem;
+}
+
+.a > .three {
+    font-family: ret;
+    font-size: 16em;
+    text-align: center;
+    padding: 2rem;
+}

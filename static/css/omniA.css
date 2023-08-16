@@ -1,11 +1,11 @@
 @font-face {
     font-family: mayo;
-    src: url("font/Dovemayo_gothic.ttf") format("truetype");
+    src: url("../font/Dovemayo_gothic.ttf") format("truetype");
 }
 
 @font-face {
     font-family: ret;
-    src: url("font/establish\ Retrosans.ttf") format('truetype');
+    src: url("../font/establish\ Retrosans.ttf") format('truetype');
 }
 
 

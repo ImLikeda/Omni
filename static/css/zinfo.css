@@ -1,5 +1,7 @@
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+
 *{
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Hanna', sans-serif;
     list-style: none;
     text-decoration: none; 
     border-collapse: collapse;
@@ -7,10 +9,11 @@
     padding: 0px;
     color: white;
     font-size: 62.5%;
+    line-height: 1.5rem;
 }
 
 .main {
-    background-color: black;
+    background-color: #0C090A;
     height: 100vh;
 }
 
@@ -31,7 +34,7 @@
     display: block;
     margin: 2rem;
     font-size: 1.4rem;
-    /* height: 40rem; */
+    letter-spacing: 0.1rem;
     width: auto;
     /* background-color: aliceblue; */
 }
@@ -48,6 +51,7 @@
     font-size: 2rem;
     font-weight: 600;
     text-align: center;
+    color: gold;
     padding: 1.6rem;
 }
 

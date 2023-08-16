@@ -1,11 +1,11 @@
 @font-face {
     font-family: mayo;
-    src: url("font/Dovemayo_gothic.ttf") format("truetype");
+    src: url("../font/Dovemayo_gothic.ttf") format("truetype");
 }
 
 @font-face {
     font-family: ret;
-    src: url("font/establish\ Retrosans.ttf") format('truetype');
+    src: url("../font/establish\ Retrosans.ttf") format('truetype');
 }
 
 
@@ -38,22 +38,6 @@
     font-weight: bolder;
 }
 
-.sl {
-    display: block;
-    text-align: center;
-    padding-bottom: 2rem;
-    font-size: 2.5rem;
-}
-
-.ex {
-    display: block;
-    text-align: center;
-    padding-bottom: 2rem;
-    font-size: 1.5rem;
-    opacity: 0.4;
-}
-
-
 .song {
     display: flex;
     border: 0.2rem solid white;
@@ -81,49 +65,18 @@
     font-size: 1.5rem;
 }
 
-.lyrics {
+.LyricBox {
     display: flex;
+    margin: 2rem;
     border: 0.2rem solid white;
-    font-size: 2rem;
-    margin: 8rem;
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
-    justify-content: center;
-    align-items: center;
-    height: 3rem;
+    height: 50vh;
 }
 
-.members {
+.LyricBox > .lyrics {
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
     justify-content: center;
-}
-
-.members > .member {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    border: 0.2rem solid white;
-    align-items: center;
-    margin: 1rem;
-}
-
-.members > .member > .th {
     text-align: center;
-}
-
-.members > .member > .name {
-    font-size: 1.5rem;
-}
-
-.members > .member > .position {
-    font-size: 1.25rem;
-}
-
-.members > .member > .image {
-    text-align: center;
-}
-
-.members > .member > .image > img {
-    width: 3rem;
-    height: 3rem;
 }

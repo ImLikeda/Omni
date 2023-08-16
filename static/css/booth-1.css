@@ -1,0 +1,57 @@
+@font-face {
+    font-family: mayo;
+    src: url("../font/Dovemayo_gothic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: ret;
+    src: url("../font/establish\ Retrosans.ttf") format('truetype');
+}
+
+
+*{
+    font-family: 'mayo', cursive;
+    list-style: none;
+    text-decoration: none; 
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 62.5%;
+}
+
+.wrap {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+.top {
+    font-family: ret;
+    display: block;
+    padding: 4rem;
+    text-align: center;
+    align-items: center;
+    line-height: 5rem;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.bimg {
+    display: flex;
+    padding: 2rem;
+
+}
+
+.bimg > img {
+    height: 100%;
+    width: 100%;
+    border: 0.3rem solid grey;
+}
+
+.bex {
+    display: flex;
+    padding: 3rem;
+    padding-top: 0;
+    font-size: medium;
+}
