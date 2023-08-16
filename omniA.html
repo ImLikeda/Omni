@@ -1,44 +1,45 @@
 <!DOCTYPE html>
 <html lang="kor">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">  
-    <link rel="stylesheet" type="text/css" href="static/css/omniA.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"
+    />
+    <link rel="stylesheet" type="text/css" href="static/css/omniA.css" />
     <title>옴니버스 A팀</title>
-    <script src="저거 주소"></script></head>
-<body>
+    <script type="text/javascript" src="static/js/songs.js"></script>
+    <script type="text/javascript" src="static/js/common.js"></script>
+  </head>
+  <body>
     <div class="wrap">
-        <div class="main">
-            <div class="top">OMNI A</div>
-            <div class="sl">SET LIST</div>
-            <div class="ex">-자세히보려면 각 곡을 터치하세요-</div>
-            <ul class="songlist">
-                <div class="song">
-                    <img src="img/Omnipic.jpg" width="4rem" height="4rem">
-                    <div class="text">
-                        <div class="singer">가수명</div>
-                        <div class="songname">곡제목</div>
-                        <div class="songex">곡설명곡설명곡설명곡설명</div>
-                    </div>
-                </div>
-                <div class="song">
-                    <img src="img/Omnipic.jpg" width="4rem" height="4rem">
-                    <div class="text">
-                        <div class="singer">가수명</div>
-                        <div class="songname">곡제목</div>
-                        <div class="songex">곡설명곡설명곡설명곡설명</div>
-                    </div>
-                </div>
-                <div class="song">
-                    <img src="img/Omnipic.jpg" width="4rem" height="4rem">
-                    <div class="text">
-                        <div class="singer">가수명</div>
-                        <div class="songname">곡제목</div>
-                        <div class="songex">곡설명곡설명곡설명곡설명</div>
-                    </div>
-                </div>
-            </ul>
-        </div>
+      <div class="main">
+        <div class="top">OMNI A</div>
+        <div class="sl">SET LIST</div>
+        <div class="ex">-자세히보려면 각 곡을 터치하세요-</div>
+        <ul class="songlist" id="songListDiv"></ul>
+      </div>
     </div>
-</body>
+  </body>
+  <script>
+    var teamName = getQueryParam("team");
+
+    var lenSongList = teams[teamName].length;
+    var songList = "";
+    for (let i = 0; i < lenSongList; i++) {
+      songList += `
+        <div class="song">
+            <img src="${teams[teamName][i].image}" width="4rem" height="4rem" />
+            <div class="text">
+              <div class="singer">${teams[teamName][i].singer}</div>
+              <div class="songname">${teams[teamName][i].name}</div>
+              <div class="songex">${teams[teamName][i].info}</div>
+            </div>
+          </div>
+        `;
+    }
+
+    var songBox = document.getElementById("songListDiv");
+    songBox.innerHTML = songList;
+  </script>
 </html>
