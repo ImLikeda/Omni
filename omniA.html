@@ -28,7 +28,7 @@
     var songList = "";
     for (let i = 0; i < lenSongList; i++) {
       songList += `
-        <div class="song">
+        <div class="song" onclick="MoveSongPage('${teams[teamName][i].nameId}')">
             <img src="${teams[teamName][i].image}" width="4rem" height="4rem" />
             <div class="text">
               <div class="singer">${teams[teamName][i].singer}</div>

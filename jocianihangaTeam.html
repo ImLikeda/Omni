@@ -1,61 +1,58 @@
 <!DOCTYPE html>
 <html lang="kor">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
-    <link rel="stylesheet" type="text/css" href="static/css/jocianihangaTeam.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="static/css/jocianihangaTeam.css"
+    />
+    <script type="text/javascript" src="static/js/common.js"></script>
+    <script type="text/javascript" src="static/js/songinfo.js"></script>
     <title>옴니버스 A팀</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="wrap">
-        <div class="main">
-            <div class="top">곡 제목</div>
-            <div class="song">
-                <img src="img/Omnipic.jpg" width="4rem" height="4rem">
-                <div class="text">
-                    <div class="singer">가수명</div>
-                    <div class="songname">곡제목</div>
-                    <div class="songex">곡설명곡설명곡설명곡설명</div>
-                </div>
-            </div>
-            <div class="lyrics">가사 보기</div>
-            <ul class="members">
-                <div class="member">
-                    <div class="th">36th</div>
-                    <div class="name">문선웅</div>
-                    <div class="position">보컬리스트</div>
-                    <div class="image"><img src="img/insta.png"></div>
-                </div>
-                <div class="member">
-                    <div class="th">32th</div>
-                    <div class="name">기민준</div>
-                    <div class="position">기타리스트</div>
-                    <div class="image"><img src="img/insta.png"></div>
-                </div>
-                <div class="member">
-                    <div class="th">30th</div>
-                    <div class="name">조용완</div>
-                    <div class="position">베이시스트</div>
-                    <div class="image"><img src="img/insta.png"></div>
-                </div>
-                <div class="member">
-                    <div class="th">37th</div>
-                    <div class="name">김승문</div>
-                    <div class="position">키보디스트</div>
-                    <div class="image"><img src="img/insta.png"></div>
-                </div>
-                <div class="member">
-                    <div class="th">32th</div>
-                    <div class="name">오제욱</div>
-                    <div class="position">드러머</div>
-                    <div class="image"><img src="img/insta.png"></div>
-                </div>
-            </ul>
-        </div>
+      <div class="main">
+        <div class="top">곡 제목</div>
+        <div class="song" id="song-info"></div>
+        <div class="lyrics">가사 보기</div>
+        <ul class="members" id="member-section"></ul>
+      </div>
     </div>
-</body>
+  </body>
+  <script>
+    var songName = getQueryParam("song");
+    var songInfo = songInfo[songName];
 
+    var songBox = document.getElementById("song-info");
+    songBox.innerHTML = `
+        <img src="${songInfo.image}" width="4rem" height="4rem" />
+          <div class="text">
+            <div class="singer">${songInfo.singer}</div>
+            <div class="songname">${songInfo.name}</div>
+            <div class="songex">${songInfo.info}</div>
+        </div>`;
+
+    var membersInfo = songInfo.members;
+    var member_html = "";
+    for (let i = 0; i < membersInfo.length; i++) {
+      member_html += `
+      <div class="member">
+        <div class="th">${membersInfo[i].th}</div>
+        <div class="name">${membersInfo[i].name}</div>
+        <div class="position">${membersInfo[i].position}</div>
+        <div class="image"><img src="img/insta.png" onclick= "window.location.href='https://www.instagram.com/${membersInfo[i].insta}/'"/></div>
+      </div>
+          `;
+    }
+
+    var mamberBox = document.getElementById("member-section");
+    mamberBox.innerHTML = member_html;
+  </script>
 </html>
