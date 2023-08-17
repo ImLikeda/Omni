@@ -1,7 +1,4 @@
 /* https://www.thewordcracker.com/basic/javascript-countdown-to-date/ */
-
-console.log('여기읽는중이에요');
-
 CountDownTimer('01/01/2023', 'countdown');
 CountDownTimer('09/20/2023 07:00 PM', 'newcountdown');
 
