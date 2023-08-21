@@ -177,7 +177,7 @@
 .ex {
     display: block;
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
     font-size: 1.5rem;
     opacity: 0.4;
 }
@@ -187,12 +187,19 @@
     flex-direction: column;
     justify-content: space-between;
     margin: 4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0rem;
 }
 
 .song {
     display: flex;
     border: 0.2rem solid white;
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
+    margin: 2rem;
+    margin-bottom: 2.5rem;
+}
+.song:nth-child(3) {
+    margin: 0;
 }
 
 .song > img {
@@ -240,7 +247,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     border: 0.2rem solid white;
     align-items: center;
-    margin: 1rem;
+    margin: 0.75rem;
 }
 
 .members > .member > .th {
@@ -283,6 +290,7 @@
     white-space: pre-line;
     font-size: large;
 }
+
 
 /* ---- 여기까지 lyrics css ---- */
 

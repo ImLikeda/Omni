@@ -1,0 +1,51 @@
+@font-face {
+    font-family: mayo;
+    src: url("../font/Dovemayo_gothic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: ret;
+    src: url("../font/establish\ Retrosans.ttf") format('truetype');
+}
+
+
+*{
+    font-family: 'mayo', cursive;
+    list-style: none;
+    text-decoration: none; 
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 62.5%;
+}
+
+.wrap {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+.OC {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-family: 'ret';
+    font-size: 18rem;
+    text-align: center;
+    line-height: 6rem;
+}
+
+.countdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 4rem;
+    padding: 2rem;
+}
+
+.ticket {
+    display: grid;
+    border: 0.2rem solid white ;
+} 
