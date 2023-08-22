@@ -30,7 +30,7 @@
     display: flex;
     flex-direction: column;
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 3.5rem;
     font-family: 'ret';
     font-size: 18rem;
     text-align: center;
@@ -43,9 +43,26 @@
     align-items: center;
     font-size: 4rem;
     padding: 2rem;
+    padding-top: 0;
 }
+
+/* 티켓 */
 
 .ticket {
     display: grid;
-    border: 0.2rem solid white ;
-} 
+    grid-template-columns: 3fr 1fr 8fr 1fr 2fr;
+    height: 18rem;
+    border: 0.2rem solid white;
+    margin: 2rem;
+    margin-top: 0;
+}
+
+.ticket > .ta {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.ticket > .ta-ten {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}

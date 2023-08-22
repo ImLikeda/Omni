@@ -24,6 +24,9 @@
     background-color: black;
     height: 100vh;
     width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main {
@@ -34,6 +37,7 @@
     font-family: ret;
     display: block;
     padding: 4rem;
+    padding-top: 0;
     text-align: center;
     align-items: center;
     line-height: 5rem;
@@ -83,6 +87,7 @@
     border-left: rgba(200,200,200,200);
     box-shadow: 0.1px 0.1px;
     font-size: 1.2rem;
+    letter-spacing: 2px;
 }
 
 /* ---  여기까지    main css  ----*/
@@ -91,6 +96,8 @@
     font-family: title;
     display: block;
     padding: 4rem;
+    padding-bottom: 3rem;
+    padding-top: 0;
     text-align: center;
     align-items: center;
     line-height: 5rem;
@@ -156,7 +163,7 @@
 .top {
     font-family: ret;
     display: block;
-    padding: 4rem;
+    padding: 3rem;
     padding-bottom: 3rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -170,7 +177,7 @@
 .sl {
     display: block;
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
     font-size: 2.5rem;
 }
 
@@ -194,12 +201,12 @@
 .song {
     display: flex;
     border: 0.2rem solid white;
-    margin-bottom: 2.5rem;
     margin: 2rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1rem;
 }
 .song:nth-child(3) {
-    margin: 0;
+    margin: 2rem;
+    margin-bottom: 0;
 }
 
 .song > img {
@@ -229,7 +236,7 @@
     border: 0.2rem solid white;
     font-size: 2rem;
     margin: 8rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 1.5rem;
     justify-content: center;
     align-items: center;

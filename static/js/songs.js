@@ -15,7 +15,7 @@ var teams = {
       nameId: "realize",
     },
     {
-      name: "어느샌가 우리는 매일을 살아왔네",
+      name: "어느샌가 우리는 <br> 매일을 살아왔네",
       singer: "The Polse",
       info: "개쩌는 ddddddd 곡",
       image: "static/img/everyday.jpg",

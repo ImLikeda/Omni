@@ -28,6 +28,7 @@
   <script>
     var songName = getQueryParam("song");
     var songInfo = songInfo[songName];
+    console.log(songInfo);
     var songBox = document.getElementById("song-info");
     songBox.innerHTML = `
         <img src="${songInfo.image}" width="4rem" height="4rem"></div>
@@ -55,8 +56,8 @@
     var memberBox = document.getElementById("member-section");
     memberBox.innerHTML = member_html;
 
-    function MoveLyricPage(songName) {
-      window.location.href = "Lyrics.html?team=" + songName;
+    function MoveLyricPage(lyrics) {
+      window.location.href = "Lyrics.html?lyrics=" + lyrics;
     }
 
   </script>
