@@ -1,17 +1,15 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Diphylleia&family=Dokdo&family=Noto+Sans+KR&display=swap'); */
 @font-face {
-    font-family: Gmarket;
-    src: url("../font/GmarketSansTTFMedium.ttf") format('truetype');
+    font-family: arirang;
+    src: url("../font/JSArirangHON.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: GmarketL;
-    src: url("../font/GmarketSansTTFBold.ttf") format('truetype');
+    font-family: mayo;
+    src: url(/static/font/Dovemayo_gothic.ttf) format("truetype");
 }
-
 
 *{
-    font-family: 'Gmarket';
+    font-family: 'arirang', sans-serif;
     list-style: none;
     text-decoration: none; 
     border-collapse: collapse;
@@ -19,109 +17,86 @@
     padding: 0px;
     color: white;
     font-size: 62.5%;
+    line-height: 1.5rem;
 }
 
-.main {
-    display: block;
-    background-color: #0C090A;
+img {
+    width: 85%;
+}
+
+.wrap {
+    background-color: black;
     height: 100vh;
     width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 
-.main > .OmniComa {
-    font-family: GmarketL;
-    display: block;
-    padding: 4rem;
-    /* background-color: yellow; */
-    text-align: center;
-    align-items: center;
-    line-height: 5rem;
-    font-size: xx-large;
-    font-weight: bolder;
-}
-
-.main > .when {
+.oxc {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: medium;
-    /* background-color: #2B1b17; */
-}
-
-.main > .timer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-color: #78404A; */
-    height: 4rem;
-    margin: 2rem;
-    color: crimson;
-    font-size: 1.5rem;
-    font-weight: 700;
-    font-style: italic;
-}
-
-.main > ul {
-    display: grid;
-    padding: 4rem;
     padding-top: 2rem;
-    padding-bottom: 2rem;
-    grid-template-rows: 1fr 1fr 1.5fr;
-    row-gap: 3rem;
-    /* background-color: plum; */
+    height: auto;
 }
 
-.main > ul > li {
+.texts {
     display: flex;
-    height: 5rem;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    margin-bottom: 0;
+}
+
+.texts > .cdtext {
     font-size: 2rem;
-    font-weight: 700;
+    margin-bottom: 2rem;
 }
 
-.main > .location {
-    display: flex;
-    font-size: 2rem;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 0.5rem;
+.texts > .countdown {
+    font-size: 2.5rem;
 }
 
-.main > .time {
-    display: flex;
-    font-size: 1.6rem;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 2rem;
+.texts > .tkex {
+    font-family: mayo;
+    font-size: 1.5rem;
+    opacity: 50%;
+    margin-top: 2.5rem;
 }
 
-.main > .info {
+.ticket {
     display: flex;
-    height: 4rem;
-    width: 16rem;
-    margin: auto;
-    background-color: rgb(100, 100, 100);
-    border-top: rgba(200,200,200,200);
-    border-left: rgba(200,200,200,200);
-    box-shadow: 0.1px 0.1px;
-    font-size: 1.2rem;
-    justify-content: center;
-    align-items: center;
-}
-
-.main > .club {
-    display: flex;
-    flex-direction: row;
+    padding: 3rem;
+    padding-bottom: 0;
     justify-content: center;
 }
 
-.main > .club > button {
-    height: 4rem;
-    width: 10rem;
-    margin: auto;
-    margin-top: 2rem;
-    background-color: rgb(108, 238, 255);
-    border-top: rgba(200,200,200,200);
-    border-left: rgba(200,200,200,200);
+.ticket > .tk:hover {
+    filter: drop-shadow(8px 8px 6px #666666);
+}
+
+.ticket > .tk {
+ /* 티켓 애니메이션 */
+ animation: pop 1.5s ease-out 0s infinite;
+}
+
+@keyframes pop {
+    50% {
+        padding: 1rem;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+/* 애니메이션 끝 */
+
+@media (min-width: 520px) {
+    .wrap {
+        height: 125vh;
+    }
+    
+    .main {
+        width: 520px;
+        background-color: black;
+    }
 }
