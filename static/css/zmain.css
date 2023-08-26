@@ -32,6 +32,12 @@ img {
     justify-content: center;
 }
 
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .oxc {
     display: flex;
     align-items: center;
@@ -92,7 +98,7 @@ img {
 
 @media (min-width: 520px) {
     .wrap {
-        height: 125vh;
+        height: 100vh;
     }
     
     .main {
