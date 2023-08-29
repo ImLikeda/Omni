@@ -75,29 +75,6 @@ var teams = {
       nameId: "move",
     },
   ],
-  collaboA: [
-    {
-      name: "Lovesick Girls",
-      singer: "Black Pink",
-      info: "개쩌는 곡",
-      image: "static/img/lovesick.jpg",
-      nameId: "lovesick",
-    },
-    {
-      name: "TOMBOY",
-      singer: "(G)-IDLE",
-      info: "개쩌는 곡ddddd",
-      image: "static/img/tomboy.jpg",
-      nameId: "toxic",
-    },
-    {
-      name: "No Celestial",
-      singer: "LE SSERAFIM",
-      info: "개쩌는 ddddddd 곡",
-      image: "static/img/celestial.jpg",
-      nameId: "celestial",
-    },
-  ],
   comaB: [
     {
       name: "Privacy / Needed Me",
@@ -126,6 +103,29 @@ var teams = {
       info: "개쩌는 ddddddd 곡",
       image: "static/img/hyuna.jpg",
       nameId: "hyuna",
+    },
+  ],
+  collaboA: [
+    {
+      name: "Lovesick Girls",
+      singer: "Black Pink",
+      info: "개쩌는 곡",
+      image: "static/img/lovesick.jpg",
+      nameId: "lovesick",
+    },
+    {
+      name: "TOMBOY",
+      singer: "(G)-IDLE",
+      info: "개쩌는 곡ddddd",
+      image: "static/img/tomboy.jpg",
+      nameId: "toxic",
+    },
+    {
+      name: "No Celestial",
+      singer: "LE SSERAFIM",
+      info: "개쩌는 ddddddd 곡",
+      image: "static/img/celestial.jpg",
+      nameId: "celestial",
     },
   ],
   collaboB: [

@@ -6,11 +6,7 @@
       name="viewport"
       content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"
     />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="static/css/pamplet.css"
-    />
+    <link rel="stylesheet" type="text/css" href="static/css/pamplet.css" />
     <script type="text/javascript" src="static/js/common.js"></script>
     <script type="text/javascript" src="static/js/songinfo.js"></script>
   </head>
@@ -27,7 +23,7 @@
   </body>
   <script>
     var songName = getQueryParam("song");
-    var songInfo = songInfo[songName];
+    var songInfo = songInfox;
     console.log(songInfo);
     var songBox = document.getElementById("song-info");
     songBox.innerHTML = `
@@ -37,8 +33,6 @@
             <div class="songname">${songInfo.name}</div>
             <div class="songex">${songInfo.info}</div>
         </div>`;
-
-
 
     var membersInfo = songInfo.members;
     var member_html = "";
@@ -59,6 +53,5 @@
     function MoveLyricPage(lyrics) {
       window.location.href = "Lyrics.html?lyrics=" + lyrics;
     }
-
   </script>
 </html>
