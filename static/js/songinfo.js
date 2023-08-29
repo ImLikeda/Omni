@@ -128,7 +128,7 @@ var songInfo = {
     members: [
       {
         th: "36th",
-        name: "정수연",
+        name: "김수연",
         position: "보컬",
         insta: "magam.bot",
       },
@@ -233,7 +233,7 @@ var songInfo = {
         insta: "s.jae__01",
       },
     ],
-  }
+  },
   // 코마 B - 4번
 
   // 옴x코 - 5번
