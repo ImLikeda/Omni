@@ -40,7 +40,7 @@ body {
 
 .oxc {
     display: flex;
-    margin-top: -2rem;
+    /* margin-top: -2rem; */
     align-items: center;
     justify-content: center;
 }
@@ -61,10 +61,11 @@ body {
 .texts > .cdtext {
     font-size: 2rem;
     margin-bottom: 2rem;
+    text-shadow: 4px 4px 5px #4bcdeb, -4px 4px 5px #4bcdeb, 4px -4px 5px #4bcdeb, -4px -4px 5px #4bcdeb;
 }
 
 .texts > .countdown {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .texts > .tkex {
@@ -81,7 +82,7 @@ body {
 }
 
 .ticket > img {
-    width: 80%;
+    width: 100%;
     height: 70%;
 }
 

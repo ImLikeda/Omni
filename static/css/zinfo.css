@@ -16,6 +16,11 @@ body {
     background-color: #0C090A;
 }
 
+.wrap {
+    display: flex;
+    justify-content: center;
+}
+
 .main {
     margin: 3rem;
     margin-top: 0;
@@ -76,7 +81,7 @@ body {
 
 .tickets > div > img{
     width: 95%;
-    height: 85%;
+    height: 100%;
 }
 
 .tickets > .omtk {
