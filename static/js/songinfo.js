@@ -199,7 +199,7 @@ var songInfo = {
         insta: "and_3.9",
       },
     ],
-  },
+  },  
 
   twentyone: {
     name: "2NE1 remix",
@@ -207,7 +207,7 @@ var songInfo = {
     image: "static/img/2ne1.jpg",
     info: "@@@@@@개쩌는 곡",
     members: [
-      {
+{
         th: "",
         name: "강민지",
         position: "",
@@ -223,7 +223,7 @@ var songInfo = {
         th: "",
         name: "이슬아",
         position: "",
-        insta: "miyu.seula__s2",
+        insta: "seula__s2",
       },
       {
         th: "",
@@ -242,7 +242,7 @@ var songInfo = {
 
   move: {
     name: "Move",
-    singer: "트레져",
+    singer: "Treasure",
     image: "static/img/move.jpg",
     info: "@@@@@@개쩌는 곡",
     members: [
@@ -279,7 +279,119 @@ var songInfo = {
     ],
   },
 
-  // 옴니 B - 3번
+  // 옴X코 A - 3번
+  lovesick: {
+    name:"Lovesick Girls",
+    singer:"Black Pink",
+    image: "static/img/lovesick.jpg",
+    info: "개쩌는곡 123456",
+    members: [
+      {
+        th: "",
+        name: "강민지",
+        position: "",
+        insta: "mingd_0.0",
+      },
+      {
+        th: "",
+        name: "김가연",
+        position: "",
+        insta: "gayeon_723",
+      },
+      {
+        th: "",
+        name: "이미연",
+        position: "",
+        insta: "m1ye0n__",
+      },
+      {
+        th: "",
+        name: "김지희",
+        position: "",
+        insta: "jiihiii_",
+      },
+    ]
+  },
+
+  tomboy: {
+    name:"TOMBOY",
+    singer:"(G)-Idle",
+    image: "static/img/tomboy.jpg",
+    info: "개쩌는곡 12345",
+    members: [
+      {
+        th: "",
+        name: "김미정",
+        position: "",
+        insta: "mi_ouo77",
+      },
+      {
+        th: "",
+        name: "김혜선",
+        position: "",
+        insta: "miyu.ss2",
+      },
+      {
+        th: "",
+        name: "이슬아",
+        position: "",
+        insta: "seula__s2",
+      },
+      {
+        th: "",
+        name: "이은빈",
+        position: "",
+        insta: "wkr_dms_do",
+      },
+      {
+        th: "",
+        name: "조예빈",
+        position: "",
+        insta: "and_3.9",
+      },
+    ]
+  },
+
+  celestial: {
+    name:"No Celestial",
+    singer:"LE SSERAFIM",
+    image: "static/img/celestial.jpg",
+    info: "개쩌는곡 12345678",
+    members: [
+      {
+        th: "",
+        name: "김미정",
+        position: "",
+        insta: "mi_ouo77",
+      },
+      {
+        th: "",
+        name: "김혜선",
+        position: "",
+        insta: "miyu.ss2",
+      },
+      {
+        th: "",
+        name: "이슬아",
+        position: "",
+        insta: "seula__s2",
+      },
+      {
+        th: "",
+        name: "이은빈",
+        position: "",
+        insta: "wkr_dms_do",
+      },
+      {
+        th: "",
+        name: "조예빈",
+        position: "",
+        insta: "and_3.9",
+      },
+    ]
+  },
+
+  // 옴니 B - 4번
 
   hibully: {
     name: "Hi Bully",
@@ -395,7 +507,7 @@ var songInfo = {
       },
     ],
   },
-  // 코마 B - 4번
+  // 코마 B - 5번
 
   privacy: {
     name: "Privacy / Needed Me",
@@ -549,5 +661,173 @@ var songInfo = {
       },
     ],
   },
-  // 옴x코 - 5번
+  // 옴x코 - 6번
+  tellme: {
+    name: "Tell Me",
+    singer: "Wonder Girls",
+    image: "static/img/tellme.jpg",
+    info: "@@@@@@개쩌는 곡123",
+    members: [
+      {
+        th: "",
+        name: "김가연",
+        position: "",
+        insta: "gayeon_723",
+      },
+      {
+        th: "",
+        name: "김혜선",
+        position: "",
+        insta: "miyu.ss2",
+      },
+      {
+        th: "",
+        name: "이슬아",
+        position: "",
+        insta: "seula__s2",
+      },
+      {
+        th: "",
+        name: "정민교",
+        position: "",
+        insta: "alsryxx",
+      },
+      {
+        th: "",
+        name: "정이주",
+        position: "",
+        insta: "1uveju",
+      },
+    ],
+  },
+  beast: {
+    name: "으 르 렁",
+    singer: "EXO",
+    image: "static/img/beast.jpg",
+    info: "@@@@@@개쩌는 곡777",
+    members: [
+      {
+        th: "",
+        name: "김미정",
+        position: "",
+        insta: "mi_ouo77",
+      },
+      {
+        th: "",
+        name: "김연범",
+        position: "",
+        insta: "ski_age_03",
+      },
+      {
+        th: "",
+        name: "김진우",
+        position: "",
+        insta: "teddyboii909",
+      },
+      {
+        th: "",
+        name: "성재오",
+        position: "",
+        insta: "seongzaeo",
+      },
+      {
+        th: "",
+        name: "정민교",
+        position: "",
+        insta: "alsryxx",
+      },
+      {
+        th: "",
+        name: "김지희",
+        position: "",
+        insta: "jiihiii_",
+      }
+    ],
+  },
+  bang: {
+    name: "뱅뱅뱅",
+    singer: "Big Bang",
+    image: "static/img/bang.jpg",
+    info: "@@@@@@개쩌는 곡357",
+    members: [
+      {
+        th: "",
+        name: "강민지",
+        position: "",
+        insta: "mingd_0.0",
+      },
+      {
+        th: "",
+        name: "김가연",
+        position: "",
+        insta: "gayeon_723",
+      },
+      {
+        th: "",
+        name: "김미정",
+        position: "",
+        insta: "mi_ouo77",
+      },
+      {
+        th: "",
+        name: "김연범",
+        position: "",
+        insta: "ski_age_03",
+      },
+      {
+        th: "",
+        name: "김진우 ",
+        position: "",
+        insta: "teddyboii909",
+      },
+      {
+        th: "",
+        name: "김혜선",
+        position: "",
+        insta: "miyu.ss2",
+      },
+      {
+        th: "",
+        name: "성재오",
+        position: "",
+        insta: "seongzaeo",
+      },
+      {
+        th: "",
+        name: "이슬아",
+        position: "",
+        insta: "seula__s2",
+      },
+      {
+        th: "",
+        name: "이용운",
+        position: "",
+        insta: "lyu_6229",
+      },
+      {
+        th: "",
+        name: "이은빈",
+        position: "",
+        insta: "wkr_dms_do",
+      },
+      {
+        th: "",
+        name: "정민교",
+        position: "",
+        insta: "alsryxx",
+      },
+      {
+        th: "",
+        name: "정이주",
+        position: "",
+        insta: "1uveju",
+      },
+      {
+        th: "",
+        name: "조예빈",
+        position: "",
+        insta: "and_3.9",
+      }
+    ]
+  }
 };
