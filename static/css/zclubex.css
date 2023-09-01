@@ -1,0 +1,76 @@
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+
+@font-face {
+    font-family: heads;
+    src: url("../font/Thirthy\ Demo.ttf");
+}
+
+*{
+    font-family: 'Hanna', sans-serif;
+    list-style: none;
+    text-decoration: none; 
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #0C090A;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.ClubH {
+    display: block;
+    text-align: center;
+    align-items: center;
+    padding: 4rem;
+    padding-bottom: 0;
+    font-family: heads;
+    color: #67ffc2;
+    font-size: 5rem;
+    font-weight: bolder;
+    text-shadow: 0.6rem 0.6rem 0.3rem #444444;
+}
+
+.Clubol {
+    display: flex;
+    padding: 3rem;
+    padding-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    color: #444444;
+    text-shadow: 0.08rem 0.08rem 0.08rem #ffffff;
+    font-size: x-large;
+    letter-spacing: 0.2rem;
+    font-style: italic;
+}
+
+.ClubPic {
+    display: flex;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    /* padding-top: 1rem;
+    padding-bottom: 1rem; */
+    justify-content: center;
+}
+
+.ClubPic > img {
+    width: 50%;
+    height: 40%;
+    transform: rotate(270deg);
+}
+
+.ClubEx {
+    display: flex;
+    padding: 4rem;
+    padding-top: 0;
+    /* background-color: aquamarine; */
+    font-size: medium;
+    justify-content: center;
+}
