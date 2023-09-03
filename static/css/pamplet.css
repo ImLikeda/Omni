@@ -22,8 +22,6 @@
 
 .wrap {
     background-color: black;
-    height: 100vh;
-    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,20 +29,19 @@
 
 .main {
     display: block;
+    height: 100vh;
+    width: 100vw;
 }
 
-.main > .OmniComa {
-    font-family: ret;
-    display: block;
-    padding: 4rem;
-    padding-top: 0;
-    text-align: center;
+.oxc {
+    display: flex;
+    /* margin-top: 2rem; */
     align-items: center;
-    line-height: 5rem;
-    font-size: xx-large;
-    font-weight: bolder;
-    color: #F1C164;
-    text-shadow: 3px 3px #2D63A7;
+    justify-content: center;
+}
+
+.oxc > img {
+    max-width: 80%;
 }
 
 .main > .middle {
@@ -96,8 +93,8 @@
     font-family: title;
     display: block;
     padding: 4rem;
-    padding-bottom: 3rem;
-    padding-top: 0;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
     text-align: center;
     align-items: center;
     line-height: 5rem;
@@ -107,7 +104,7 @@
 
 .main > .TimeLine {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .main > .TimeLine > .TL {
@@ -117,45 +114,29 @@
     width: 80%;
     justify-content: center;
     padding-top: 1.8rem;
+    background-image: url(../img/png/ttbox.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
-.time, .team {
+.main > .TimeLine > .TL > div {
+    padding: 0.5rem;
+    text-align: left;
+    padding-left: 4rem;
+}
+
+.main > .TimeLine > .TL:nth-child(even) > div {
+    text-align: right;
+    padding-right: 4rem;
+}
+
+.main > .TimeLine > div > .time, .team {
     font-size: medium;
     font-weight: bolder;
 }
 
-.team {
+.main > .TimeLine > div > .team {
     font-size: 2.5rem;
-}
-
-.main > .TimeLine > .TL > .first {
-    border: 0.25rem solid blue;
-    text-align: left;
-    padding: 0.5rem;
-}
-
-.main > .TimeLine > .TL > .second {
-    border: 0.25rem solid skyblue;
-    text-align: right;
-    padding: 0.5rem;
-}
-
-.main > .TimeLine > .TL > .third {
-    border: 0.25rem solid aqua;
-    text-align: left;
-    padding: 0.5rem;
-}
-
-.main > .TimeLine > .TL > .fourth {
-    border: 0.25rem solid cornflowerblue;
-    text-align: right;
-    padding: 0.5rem;
-}
-
-.main > .TimeLine > .TL > .fifth {
-    border: 0.25rem solid darkblue;
-    text-align: center;
-    padding: 0.5rem;
 }
 
 /* --- 여기까지 timetable css ----*/

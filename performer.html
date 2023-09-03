@@ -23,26 +23,25 @@
   </body>
   <script>
     var songName = getQueryParam("song");
-    var songInfo = songInfox;
-    console.log(songInfo);
+    var song = songInfo[songName];
     var songBox = document.getElementById("song-info");
     songBox.innerHTML = `
-        <img src="${songInfo.image}" width="4rem" height="4rem"></div>
+        <img src="${song.image}"width="4rem" height="4rem"></div>
           <div class="text">
-            <div class="singer">${songInfo.singer}</div>
-            <div class="songname">${songInfo.name}</div>
-            <div class="songex">${songInfo.info}</div>
+            <div class="singer">${song.singer}</div>
+            <div class="songname">${song.name}</div>
+            <div class="songex">${song.info}</div>
         </div>`;
 
-    var membersInfo = songInfo.members;
+    var members = song.members;
     var member_html = "";
-    for (let i = 0; i < membersInfo.length; i++) {
+    for (let i = 0; i < members.length; i++) {
       member_html += `
       <div class="member">
-        <div class="th">${membersInfo[i].th}</div>
-        <div class="name">${membersInfo[i].name}</div>
-        <div class="position">${membersInfo[i].position}</div>
-        <div class="image"><img src="static/img/insta.png" onclick= "window.location.href='https://www.instagram.com/${membersInfo[i].insta}/'"/></div>
+        <div class="th">${members[i].th}</div>
+        <div class="name">${members[i].name}</div>
+        <div class="position">${members[i].position}</div>
+        <div class="image"><img src="static/img/png/insta.png" onclick= "window.location.href='https://www.instagram.com/${members[i].insta}/'"/></div>
       </div>
           `;
     }

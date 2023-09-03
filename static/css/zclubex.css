@@ -1,4 +1,12 @@
-@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+@font-face {
+    font-family: hanna;
+    src: url(../font/BMHANNAPro.ttf);
+}
+
+@font-face {
+    font-family: slimhanna;
+    src: url(../font/BMHANNAAir_ttf.ttf);
+}
 
 @font-face {
     font-family: heads;
@@ -32,7 +40,7 @@ body {
     padding: 4rem;
     padding-bottom: 0;
     font-family: heads;
-    color: #67ffc2;
+    /* color: #5f5f5f; */
     font-size: 5rem;
     font-weight: bolder;
     text-shadow: 0.6rem 0.6rem 0.3rem #444444;
@@ -44,23 +52,33 @@ body {
     padding-bottom: 0;
     align-items: center;
     justify-content: center;
-    color: #444444;
-    text-shadow: 0.08rem 0.08rem 0.08rem #ffffff;
+    text-shadow: 0.1rem 0.1rem 0.1rem #ffffff;
     font-size: x-large;
     letter-spacing: 0.2rem;
     font-style: italic;
 }
 
-.ClubPic {
+.OmniPic {
     display: flex;
     padding-right: 3rem;
     padding-left: 3rem;
-    /* padding-top: 1rem;
-    padding-bottom: 1rem; */
     justify-content: center;
 }
 
-.ClubPic > img {
+.ComaPic {
+    display: flex;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    justify-content: center;
+}
+
+.OmniPic > img {
+    width: 50%;
+    height: 40%;
+    transform: rotate(270deg);
+}
+
+.ComaPic > img {
     width: 50%;
     height: 40%;
     transform: rotate(270deg);
@@ -68,9 +86,13 @@ body {
 
 .ClubEx {
     display: flex;
-    padding: 4rem;
+    padding: 3.5rem;
     padding-top: 0;
-    /* background-color: aquamarine; */
-    font-size: medium;
+    padding-bottom: 0;
+    font-family: slimhanna;
+    font-weight: 0;
+    font-size: 1.5rem;
     justify-content: center;
+    line-height: 2rem;
+    /* text-align: center; */
 }
