@@ -4,45 +4,7 @@ var songInfo = {
   faraway: {
     name: "Far Away",
     singer: "Lacuna",
-    image: "static/img/faraway.jpg",
-    info: "개쩌는 곡 @@@@@@",
-    members: [
-      {
-        th: "36th",
-        name: "윤순형",
-        position: "보컬",
-        insta: "s__nbro",
-      },
-      {
-        th: "28th",
-        name: "정동환",
-        position: "일렉 기타",
-        insta: "bigsky_142857",
-      },
-      {
-        th: "36th",
-        name: "김서준",
-        position: "일렉 기타",
-        insta: "seojun8136",
-      },
-      {
-        th: "30th",
-        name: "조용완",
-        position: "베이스",
-        insta: "re_base",
-      },
-      {
-        th: "32nd",
-        name: "오제욱",
-        position: "드럼",
-        insta: "oookk_2",
-      },
-    ],
-  },
-  realize: {
-    name: "Realize",
-    singer: "silicagel",
-    image: "static/img/realize.jpg",
+    image: "https://drive.google.com/uc?export=view&amp;id=1XQdKS2abqHHSo9De_0nzZgQUAz1MFlx2",
     info: "개쩌는 곡 @@@@@@",
     members: [
       {
@@ -115,13 +77,51 @@ var songInfo = {
       },
     ],
   },
+  tictaktok: {
+    name: "Tik Tak Tok",
+    singer: "silicagel",
+    image: "static/img/tictaktok.jpg",
+    info: "개쩌는 곡 @@@@@@",
+    members: [
+      {
+        th: "36th",
+        name: "윤순형",
+        position: "보컬",
+        insta: "s__nbro",
+      },
+      {
+        th: "28th",
+        name: "정동환",
+        position: "일렉 기타",
+        insta: "bigsky_142857",
+      },
+      {
+        th: "36th",
+        name: "김서준",
+        position: "일렉 기타",
+        insta: "seojun8136",
+      },
+      {
+        th: "30th",
+        name: "조용완",
+        position: "베이스",
+        insta: "re_base",
+      },
+      {
+        th: "32nd",
+        name: "오제욱",
+        position: "드럼",
+        insta: "oookk_2",
+      },
+    ],
+  },
 
   // 코마 A - 2번
   mommae: {
     name: "몸매 remix",
     singer: "Jay Park",
     image: "static/img/mommae.jpg",
-    info: "@@@@@@개쩌는 곡",
+    info: "박재범의 몸매라는 곡은 유명하지만, 기존의 느낌은 덜어내고 리믹스된 버전으로 펑키함을 더한 몸매를 준비해보았습니다! 많이 기대해 주세요 :)",
     members: [
       {
         th: "",
@@ -201,45 +201,6 @@ var songInfo = {
     ],
   },  
 
-  twentyone: {
-    name: "2NE1 remix",
-    singer: "2NE1",
-    image: "static/img/2ne1.jpg",
-    info: "@@@@@@개쩌는 곡",
-    members: [
-{
-        th: "",
-        name: "강민지",
-        position: "",
-        insta: "mingd_0.0",
-      },
-      {
-        th: "",
-        name: "김미정",
-        position: "",
-        insta: "mi_ouo77",
-      },
-      {
-        th: "",
-        name: "이슬아",
-        position: "",
-        insta: "seula__s2",
-      },
-      {
-        th: "",
-        name: "정민교",
-        position: "",
-        insta: "alsryxx",
-      },
-      {
-        th: "",
-        name: "조예빈",
-        position: "",
-        insta: "and_3.9",
-      },
-    ],
-  },
-
   move: {
     name: "Move",
     singer: "Treasure",
@@ -279,6 +240,45 @@ var songInfo = {
     ],
   },
 
+  twentyone: {
+    name: "2NE1 remix",
+    singer: "2NE1",
+    image: "static/img/2ne1.jpg",
+    info: "@@@@@@개쩌는 곡",
+    members: [
+{
+        th: "",
+        name: "강민지",
+        position: "",
+        insta: "mingd_0.0",
+      },
+      {
+        th: "",
+        name: "김미정",
+        position: "",
+        insta: "mi_ouo77",
+      },
+      {
+        th: "",
+        name: "이슬아",
+        position: "",
+        insta: "seula__s2",
+      },
+      {
+        th: "",
+        name: "정민교",
+        position: "",
+        insta: "alsryxx",
+      },
+      {
+        th: "",
+        name: "조예빈",
+        position: "",
+        insta: "and_3.9",
+      },
+    ],
+  },
+
   // 옴X코 A - 3번
   lovesick: {
     name:"Lovesick Girls",
@@ -286,6 +286,36 @@ var songInfo = {
     image: "static/img/lovesick.jpg",
     info: "개쩌는곡 123456",
     members: [
+      {
+        th: "",
+        name: "",
+        position: "보컬",
+        insta: "",
+      },
+      {
+        th: "32nd",
+        name: "기민준",
+        position: "일렉 기타",
+        insta: "potato.9915",
+      },
+      {
+        th: "36th",
+        name: "김서준",
+        position: "일렉 기타",
+        insta: "seojun8136",
+      },
+      {
+        th: "30th",
+        name: "조용완",
+        position: "베이스",
+        insta: "re_base",
+      },
+      {
+        th: "32nd",
+        name: "오제욱",
+        position: "드럼",
+        insta: "oookk_2",
+      },
       {
         th: "",
         name: "강민지",
@@ -319,6 +349,36 @@ var songInfo = {
     image: "static/img/tomboy.jpg",
     info: "개쩌는곡 12345",
     members: [
+      {
+        th: "",
+        name: "",
+        position: "보컬",
+        insta: "",
+      },
+      {
+        th: "32nd",
+        name: "기민준",
+        position: "일렉 기타",
+        insta: "potato.9915",
+      },
+      {
+        th: "36th",
+        name: "김서준",
+        position: "일렉 기타",
+        insta: "seojun8136",
+      },
+      {
+        th: "30th",
+        name: "조용완",
+        position: "베이스",
+        insta: "re_base",
+      },
+      {
+        th: "32nd",
+        name: "오제욱",
+        position: "드럼",
+        insta: "oookk_2",
+      },
       {
         th: "",
         name: "김미정",
@@ -360,6 +420,36 @@ var songInfo = {
     members: [
       {
         th: "",
+        name: "",
+        position: "보컬",
+        insta: "",
+      },
+      {
+        th: "32nd",
+        name: "기민준",
+        position: "일렉 기타",
+        insta: "potato.9915",
+      },
+      {
+        th: "36th",
+        name: "김서준",
+        position: "일렉 기타",
+        insta: "seojun8136",
+      },
+      {
+        th: "30th",
+        name: "조용완",
+        position: "베이스",
+        insta: "re_base",
+      },
+      {
+        th: "37nd",
+        name: "이성재",
+        position: "드럼",
+        insta: "s.jae__01",
+      },
+      {
+        th: "",
         name: "김미정",
         position: "",
         insta: "mi_ouo77",
@@ -393,6 +483,51 @@ var songInfo = {
 
   // 옴니 B - 4번
 
+  alive: {
+    name: "Alive",
+    singer: "Touched",
+    image: "static/img/touched.jpg",
+    info: "@@@@@@개쩌는 곡123",
+    members: [
+      {
+        th: "36th",
+        name: "정수연",
+        position: "보컬",
+        insta: "magam.bot",
+      },
+      {
+        th: "32th",
+        name: "기민준",
+        position: "일렉 기타",
+        insta: "potato.9915",
+      },
+      {
+        th: "37th",
+        name: "박창현",
+        position: "일렉 기타",
+        insta: "bull_drunken",
+      },
+      {
+        th: "36th",
+        name: "김서준",
+        position: "베이스",
+        insta: "seojun8136",
+      },
+      {
+        th: "",
+        name: "김가람",
+        position: "키보드",
+        insta: "",
+      },
+      {
+        th: "37nd",
+        name: "이성재",
+        position: "드럼",
+        insta: "s.jae__01",
+      },
+    ],
+  },
+
   hibully: {
     name: "Hi Bully",
     singer: "Touched",
@@ -424,42 +559,10 @@ var songInfo = {
         insta: "seojun8136",
       },
       {
-        th: "37nd",
-        name: "이성재",
-        position: "드럼",
-        insta: "s.jae__01",
-      },
-    ],
-  },
-  alive: {
-    name: "Hi Bully",
-    singer: "Touched",
-    image: "static/img/touched.jpg",
-    info: "@@@@@@개쩌는 곡123",
-    members: [
-      {
-        th: "36th",
-        name: "정수연",
-        position: "보컬",
-        insta: "magam.bot",
-      },
-      {
-        th: "32th",
-        name: "기민준",
-        position: "일렉 기타",
-        insta: "potato.9915",
-      },
-      {
-        th: "37th",
-        name: "박창현",
-        position: "일렉 기타",
-        insta: "bull_drunken",
-      },
-      {
-        th: "36th",
-        name: "김서준",
-        position: "베이스",
-        insta: "seojun8136",
+        th: "",
+        name: "김가람",
+        position: "키보드",
+        insta: "",
       },
       {
         th: "37nd",
@@ -500,6 +603,12 @@ var songInfo = {
         insta: "seojun8136",
       },
       {
+        th: "",
+        name: "김가람",
+        position: "키보드",
+        insta: "",
+      },
+      {
         th: "37nd",
         name: "이성재",
         position: "드럼",
@@ -510,8 +619,8 @@ var songInfo = {
   // 코마 B - 5번
 
   privacy: {
-    name: "Privacy / Needed Me",
-    singer: "Chris Brown / Rihanna",
+    name: "Sex you / Privacy",
+    singer: " Bando Jonez / Chris Brown",
     image: "static/img/privacy.jpg",
     info: "@@@@@@개쩌는 곡",
     members: [
@@ -575,7 +684,7 @@ var songInfo = {
   },
   kream: {
     name: "kream(Feat.Tyga)",
-    singer: "lggy Azalea",
+    singer: "Iggy Azalea",
     image: "static/img/kream.jpg",
     info: "@@@@@@개쩌는 곡",
     members: [
@@ -618,7 +727,7 @@ var songInfo = {
     ],
   },
   hyuna: {
-    name: "HyunA remix",
+    name: "HyunA Remix",
     singer: "HyunA",
     image: "static/img/hyuna.jpg",
     info: "@@@@@@개쩌는 곡",
@@ -661,45 +770,8 @@ var songInfo = {
       },
     ],
   },
+
   // 옴x코 - 6번
-  tellme: {
-    name: "Tell Me",
-    singer: "Wonder Girls",
-    image: "static/img/tellme.jpg",
-    info: "@@@@@@개쩌는 곡123",
-    members: [
-      {
-        th: "",
-        name: "김가연",
-        position: "",
-        insta: "gayeon_723",
-      },
-      {
-        th: "",
-        name: "김혜선",
-        position: "",
-        insta: "miyu.ss2",
-      },
-      {
-        th: "",
-        name: "이슬아",
-        position: "",
-        insta: "seula__s2",
-      },
-      {
-        th: "",
-        name: "정민교",
-        position: "",
-        insta: "alsryxx",
-      },
-      {
-        th: "",
-        name: "정이주",
-        position: "",
-        insta: "1uveju",
-      },
-    ],
-  },
   beast: {
     name: "으 르 렁",
     singer: "EXO",
