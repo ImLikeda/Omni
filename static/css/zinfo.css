@@ -34,12 +34,18 @@ body {
     display: flex;
     flex-direction: column;
     padding: 2rem;
+    padding-top: 0.5rem;
     padding-bottom: 0;
+}
+
+.infobox > .infoex {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
 }
 
 .infobox > li{
     list-style: circle outside none;
-    font-size: 3rem;
+    font-size: 2.4rem;
     padding: 2rem;
     padding-bottom: 1.5rem;
 }
@@ -67,6 +73,15 @@ body {
     /* height: 80%; */
 }
 
+.tkex {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    opacity: 50%;
+    padding-top: 0.5rem;
+}
+
 .tickets {
     display: flex;
     justify-content: space-between;
@@ -86,14 +101,14 @@ body {
 .tickets > .omtk {
     justify-content: start;
     height: auto;
-    
+    animation: pop 1.5s ease-out 0s infinite;
 }
 
 .tickets > .cotk {
     justify-content: flex-end;
     height: auto;
+    animation: pop 1.5s ease-out 0s infinite;
 }
-
 
 @media (min-width: 520px) {
     .wrap {
@@ -103,5 +118,19 @@ body {
     .main {
         width: 520px;
         background-color: black;
+    }
+}
+
+@keyframes pop {
+    0% {
+        transform: none;
+    }
+    
+    50% {
+        transform: scale(0.95);
+    }
+
+    100% {
+        transform: none;
     }
 }

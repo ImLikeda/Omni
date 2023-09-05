@@ -90,7 +90,7 @@ body {
 
 .ticket > .tk {
  /* 티켓 애니메이션 */
- animation: pop 1.5s ease-out 0s infinite;
+animation: pop 1.5s ease-out 0s infinite;
 }
 
 @keyframes pop {
