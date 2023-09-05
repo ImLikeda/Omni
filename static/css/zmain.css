@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: mayo;
-    src: url(/static/font/Dovemayo_gothic.ttf) format("truetype");
+    src: url("../font/Dovemayo_gothic.ttf") format("truetype");
 }
 
 *{
