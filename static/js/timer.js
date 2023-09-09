@@ -1,6 +1,6 @@
 /* https://www.thewordcracker.com/basic/javascript-countdown-to-date/ */
 CountDownTimer('01/01/2023', 'countdown');
-CountDownTimer('09/20/2023 07:00 PM', 'newcountdown');
+CountDownTimer('09/19/2023 07:00 PM', 'newcountdown');
 
 function CountDownTimer(dt, id){
     var end = new Date(dt);
